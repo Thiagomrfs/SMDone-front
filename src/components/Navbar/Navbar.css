@@ -1,0 +1,35 @@
+.navbar {
+    background-color: var(--app-dark-blue);
+    height: var(--navbar-heigth);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--app-white);
+    padding: 0 var(--padding-hz);
+}
+
+.navbar h3 {
+    font-size: 1.85rem;
+    font-weight: 600;
+}
+
+.navbar h3 b {
+    color: var(--app-orange);
+}
+
+.navbar .nav-btns {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.navbar .nav-btns p {
+    transition: all ease 300ms;
+}
+
+.navbar .nav-btns p:hover {
+    color: var(--app-orange);
+    cursor: pointer;
+}

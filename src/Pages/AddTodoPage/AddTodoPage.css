@@ -1,0 +1,77 @@
+#add-pg {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--app-white);
+}
+
+#add-pg .content {
+    width: 100%;
+    height: 80%;
+    padding: 1rem var(--padding-hz);
+}
+
+#add-pg .content h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#add-pg .content form div.txt-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.85rem;
+}
+
+#add-pg .content form div.txt-input input {
+    height: 1.5rem;
+    background-color: var(--app-white);
+    border: 1px solid #c1c1c1;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    color: #000;
+    font-size: 1rem;
+    font-family: Poppins;
+}
+
+#add-pg .content form div select {
+    height: 1.5rem;
+    background-color: var(--app-white);
+    border: 1px solid #c1c1c1;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    color: #000;
+    font-size: 1rem;
+    font-family: Poppins;
+}
+
+#add-pg .p-dropdown {
+    display: flex;
+}
+
+#add-pg .p-dropdown .p-dropdown-label {
+    width: 50rem;
+}
+
+#add-pg .sv-btn {
+    background-color: #15359E;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: auto;
+    margin-top: 1rem;
+    transition: all ease 300ms;
+}
+
+#add-pg .sv-btn:hover {
+    background-color: #150d7a;
+    cursor: pointer;
+}

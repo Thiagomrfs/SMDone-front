@@ -1,0 +1,21 @@
+#init-pg {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--app-white);
+}
+
+#init-pg .content {
+    padding: 2rem var(--padding-hz);
+}
+
+#init-pg .content h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#init-pg .todos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
